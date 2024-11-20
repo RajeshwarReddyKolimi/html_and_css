@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Navbar</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li id="product-nav">
+          <a href="#products"> Products </a>
+          <ul class="dropdown">
+            <li><a href="#product1">Product 1</a></li>
+            <li><a href="#product2">Product 2</a></li>
+            <li><a href="#product3">Product 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="products">
+        <h1>Products</h1>
+        <div id="product1"><h3>Product 1</h3></div>
+        <div id="product2"><h3>Product 2</h3></div>
+        <div id="product3"><h3>Product 3</h3></div>
+      </section>
+      <hr />
+      <section id="about">
+        <h1>About</h1>
+      </section>
+    </main>
+    <hr />
+    <footer id="contact">
+      Contact us at: <a href="mailto:info@nothing.com">infor@nothing.com</a>
+    </footer>
+  </body>
+</html>

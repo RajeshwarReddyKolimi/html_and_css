@@ -1,0 +1,23 @@
+main{
+    width: 100%;
+    text-align: center;
+}
+.image{
+    width: 300px;
+    height: 200px;
+}
+.images-container-flex-nowrap{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    overflow: auto;
+    justify-content: flex-start;
+}
+.images-container-flex-wrap{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
