@@ -1,0 +1,14 @@
+body {
+  background-color: lightblue;
+  color: black;
+  font-size: 18px;
+}
+body div {
+  background-color: green;
+}
+body div p {
+  background-color: pink;
+}
+body p {
+  background-color: yellow;
+}/*# sourceMappingURL=index.css.map */

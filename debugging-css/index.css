@@ -1,0 +1,32 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.title {
+    color: blue;
+}
+
+#main-title {
+    color: red;
+}
+
+.text {
+    color: green;
+    font-size: 16px;
+}
+
+#first-paragraph {
+    color: orange;
+}
+
+.special-text {
+    font-size: 18px;
+    color: purple;
+}
+
+
+.section .text {
+    color: black;
+}
+
